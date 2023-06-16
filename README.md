@@ -67,7 +67,7 @@ Graph structure construction: To generate the graph structure based on the **...
 - [Distance between connected road segments (in meters)](./Data/Raw/Vehicle_Flow_Roads_Distance.txt)
 - [road network structure file](./Data/hsin_6_CCTV_0600_1900_rename/adj_mat_6_rename.pkl)
 
-### II. CTCam dataset and Model Zoo
+### II. CTCam dataset used for training
 
 CTCam comprises GCT flow and vehicle flow. The Data Structure of CTCam is shown as follows:
 
