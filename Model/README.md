@@ -1,5 +1,5 @@
 
-# Experimental Code for: Two-Stage Fusion Model 
+# Experimental Code for Two-Stage Fusion Model 
 ## for integrating GCT and vehicle flow
 
 ![RMT-dataset](https://github.com/cylin-gn/CTCam/blob/main/Figure/fusion_model.png)
@@ -70,14 +70,38 @@ This is the example that using [Graph Wavenet](https://github.com/nnzhan/Graph-W
 
 ## Model Training
 
-The code for each part of the framework architecture is provided above.
+- Training Extractors for GCT flow prediction and Vehicle flow prediction, similar to traffic speed prediction.
+  For using Graph Wavenet as an example, please follow the instruction in [Graph Wavenet](https://github.com/nnzhan/Graph-WaveNet) 
+- Put the pre-trained-well extractors model in:
+```
+./Model/save
+```
+- Please set the location of the dataset and graph structure file in `argparse.ArgumentParser()` of `parameters.py`
 
-Please set the location of the dataset and graph structure file in `argparse.ArgumentParser()` of `parameters.py`
+For GCT Flow extractors, please set in the:
+```
+### GCT ###
+...
+```
+
+For Vehicle Flow extractors, please set in the:
+```
+### CCTV ###
+...
+```
+
+For Stage Two, please set in the:
+```
+### Fusion ###
+...
+```
 
 And put all codes together to run the training process.
 
-Or run the `Jupyter Notebook` for model training with:
+Or directly run the `Jupyter Notebook`:
 
 ```
 2_stages_fusion.ipynb
 ```
+
+for Stage Two training with our provided pre-trained extractors.
