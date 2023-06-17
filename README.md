@@ -1,9 +1,21 @@
 # CTCam (GCT Flow & Camera-based vehicle Flow) Dataset 
 
+![overview](https://github.com/cylin-gn/CTCam/blob/main/Figure/overview.png)
+
+
 This is the original data repository of CTCam
 This prototypical dataset cooperated with [Chunghwa Telecom laboratories](https://www.chttl.com.tw/en/index.html)
 
-The dataset and experimental code materials are provided in the following.
+The dataset is provided at:
+```
+./Data
+```
+
+Experimental code is provided at:
+```
+./Model
+```
+
 
 ## CTCam Demo Page
 The CTCam demo is available at: https://cylin-gn.github.io/CTCam-demo
@@ -100,6 +112,10 @@ This is the example that using [Graph Wavenet](https://github.com/nnzhan/Graph-W
 - Pretrained Extractor for Vehicle Flow: [exp202306161734_0.pth](./Model/save/exp202306161734_0.pth)
 - Fusion & Third-GCN-based Training: [exp202306162115_0.pth](./Model/save/exp202306162115_0.pth)
 
+For model code and training, please see:
+```
+./Model
+```
 
 
 
