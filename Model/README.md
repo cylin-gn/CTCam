@@ -50,7 +50,7 @@ The `processed Graph Structure of Road Section Network` is available at:
 - Vehicle Flow: [road network structure file](https://github.com/cylin-gn/CTCam/blob/main/Data/hsin_6_CCTV_0600_1900_rename/adj_mat_6_rename.pkl)
 
 
-## Dataset
+## Datasets for training
 The **processed train/val/test data structures file** is available, 
 - data structures file for GCT flow: [Here](https://github.com/cylin-gn/CTCam/tree/main/Data/hsin_49_GCT_0600_1900_rename)
 - data structures file for Vehiclw flow: [Here](https://github.com/cylin-gn/CTCam/tree/main/Data/hsin_6_CCTV_0600_1900_rename)
