@@ -16,14 +16,6 @@ Experimental code is provided at:
 ./Model
 ```
 
-
-## CTCam Playground
-
-![overview](https://github.com/cylin-gn/CTCam/blob/main/Figure/resource_demo.png)
-
-The CTCam demo is available at: https://cylin-gn.github.io/CTCam-demo
-
-
 ## Overview
 
 ### GCT
