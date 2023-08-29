@@ -47,7 +47,9 @@ Here is an example of the **GCT flow vs Vehicle Flow** for one road segment near
 <img src="./Figure/mix.png" alt="" width=70%/>
 
 * Enhancement for Vehicle Flow Counting *
-Considering Taiwan’s distinctive traffic conditions, such as dense motorcycle traffic, we fine-tuned YOLOv7 and FastReID, used in BOT-Sort, with over 1,000 manually labeled instances for robust detection accuracy. As displayed on the left side of Figure 5, these modifications improved the models’ detection, thereby enhancing tracking capabilities under various conditions. The right side of Figure 5 demonstrates the accuracy of detection and tracking.
+Considering Taiwan’s distinctive traffic conditions, such as dense motorcycle traffic, we fine-tuned YOLOv7 and FastReID, used in BOT-Sort, with over 1,000 manually labeled instances for robust detection accuracy. As displayed on the left side of the following figure, these modifications improved the models’ detection, thereby enhancing tracking capabilities under various conditions. The right side of the following figure demonstrates the accuracy of detection and tracking.
+
+<img src="./Figure/camera_data.png" alt="" width=80%/>
 
 ### Road segment
 The road segments are defined as 20m x 20m areas, which is based on the average road size in our proof-of-concept (POC) area in Hsinchu, Taiwan. 
