@@ -46,6 +46,9 @@ We define the total quantity of detected vehicles within a fixed interval (e.g.,
 Here is an example of the **GCT flow vs Vehicle Flow** for one road segment near Hsinchu Science Park:
 <img src="./Figure/mix.png" alt="" width=70%/>
 
+* Enhancement for Vehicle Flow Counting *
+Considering Taiwan’s distinctive traffic conditions, such as dense motorcycle traffic, we fine-tuned YOLOv7 and FastReID, used in BOT-Sort, with over 1,000 manually labeled instances for robust detection accuracy. As displayed on the left side of Figure 5, these modifications improved the models’ detection, thereby enhancing tracking capabilities under various conditions. The right side of Figure 5 demonstrates the accuracy of detection and tracking.
+
 ### Road segment
 The road segments are defined as 20m x 20m areas, which is based on the average road size in our proof-of-concept (POC) area in Hsinchu, Taiwan. 
 All the GCTs listed in the above table are located within the predefined road segments, nearby various regional functionality.
@@ -112,6 +115,8 @@ For model code and training, please see:
 ```
 ./Model
 ```
+
+
 
 
 
